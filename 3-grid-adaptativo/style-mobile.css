@@ -1,0 +1,79 @@
+/* STYLE-MOBILE */
+#azul {
+    height: 100%;
+    background-color: cadetblue;
+}
+
+#verde {
+    height: 100%;
+    background-color: lightgreen;
+}
+
+#roxo {
+    height: 100%;
+    background-color: mediumpurple
+}
+
+#laranja {
+    height: 100%;
+    background-color: orange;
+}
+
+.grid-container {
+    flex: 1;
+    /* Para esticar e preencher todo o body */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 64px 256px 1fr 1fr;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.menu .menu-item .icon {
+    display: flex;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .menu-item .label {
+    display: none;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer {
+    display: grid;
+    /* Ajusta o layout da footer */
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-annotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
