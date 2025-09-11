@@ -115,7 +115,6 @@ footer {
   }
 
   body > * > * {
-    /* When the screen is too big, keeps the content centered. */
     max-width: 1300px;
   }
 }

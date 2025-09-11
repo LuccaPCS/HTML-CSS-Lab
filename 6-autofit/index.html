@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autofit example</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+      .item {
+        border: inset 1px solid black;
+        aspect-ratio: 1;
+        box-sizing: border-box;
+        background-color: lightsalmon;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p>
+        In this autofit example, the columns have a minimum width. As the screen
+        expands, more columns are added to fit the available space.
+      </p>
+    </div>
+    <div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </body>
+</html>
